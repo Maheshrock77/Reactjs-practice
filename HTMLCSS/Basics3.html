@@ -1,0 +1,75 @@
+!DOCTYPE html>
+<html <lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- External file link -->
+    <link rel="stylesheet" href="./formatingElement.css" />
+    <!-- Internal Style Sheet  with help of style tag-->
+    <style>
+        p {
+            background-color: red;
+        }
+
+        #first {
+            background-color: blueviolet;
+        }
+
+        .second {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="first">Love failure simply means the end of companionship with your partner. It also means that you and your
+        partner might not be compatible. The relationship which ends is surely not the best and final relationship in
+        your life
+    </p>
+    <marquee behavior="" direction="">
+        <img src="data:image/png;base64,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"
+            alt="">
+    </marquee>
+    <p class="second">Love failure simply means the end of companionship with your partner. It also means that you and
+        your partner might not be compatible. The relationship which ends is surely not the best and final relationship
+        in your life
+    </p>
+
+
+    <p>Love failure simply means the end of companionship with your partner. It also means that you and your partner
+        might not be compatible. The relationship which ends is surely not the best and final relationship in your life
+    </p>
+    <a href="love failure">love failure</a>
+    <ul>
+        <li>mahesh</li>
+        <li>rock</li>
+        <li>smart</li>
+        <li>mahesh rock</li>
+    </ul>
+    <ol>
+        <li>mahesh</li>
+        <li>rock</li>
+        <li>smart</li>
+        <li>mahesh rock</li>
+    </ol>
+    <dl>
+        <dt>home</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati soluta laborum consequuntur? Dolore,
+            labore a quo doloremque in voluptatum blanditiis perferendis quos! Sed animi doloremque fugit corporis porro
+            quaerat quis.</dd>
+        <dt>mahesh rock</dt>
+        <dd>mahes rock is handsome boy and stylish and handsome hunk </dd>
+        <dt>mutton</dt>
+        <dd>mutton is yummy food</dd>
+        <dt>chicken</dt>
+        <dd>chicken 65 is very speiceious food</dd>
+        <dt>egg</dt>
+        <dd>egg is energy to take neutrions</dd>
+
+    </dl>
+
+</body>
+
+</html>
