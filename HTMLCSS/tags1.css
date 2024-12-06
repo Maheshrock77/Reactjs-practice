@@ -1,0 +1,12 @@
+h3{
+    font-style: italic;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    font-style: italic;
+}
+span{
+    background-color: rgb(255, 0, 200);
+}
