@@ -1,0 +1,154 @@
+.row1 {
+  background: #322f2f;
+  color: white;
+  margin-bottom: 20px;
+ }
+ header {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+ }
+ div#basic {
+  width: 250px;
+  float: left;
+  margin: 20px 0 20px 0;
+ }
+ #basic h1 {
+  /* padding: 0; */
+  margin: 0;
+ }
+ #basic p {
+  margin: 0;
+ }
+ header nav {
+  width: 500px;
+  float: right;
+  background: black;
+  margin: 20px 0 20px 0;
+ }
+ nav ul li {
+  display: inline;
+  font-size: 13px;
+  margin-right: 33px;
+  cursor: pointer;
+ }
+ .row2 {
+  width: 800px;
+  margin: auto;
+ }
+ .row2 img {
+  width: 800px;
+  height: 300px;
+ }
+ .row3 {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+ }
+ .childs {
+  width: 266px;
+  float: left;
+ }
+ figure {
+  width: 250px;
+  margin: 0;
+ }
+ figure img {
+  width: 258px;
+  border: 1px solid;
+  padding: 4px;
+ }
+ .row4{
+   /* margin: auto; */
+   width: 800px;
+   height: 235px;
+   margin-top: 15px;
+   /* border: 1px solid; */
+   margin-left: 194px;
+   
+ }
+ 
+  .child1{
+   float: left;
+   width: 390px;
+  }
+  .child2{
+   float: right;
+   width: 390px;
+  }
+  .child2 img {
+   width: 390px;
+   height: 215px;
+   padding-top: 15px;
+ }
+ a.ld1 {
+   margin-left: 289px;
+ }
+ a.ld {
+   margin-left: 150px;
+ }
+ .classlink {
+   float: left;
+   width: 750px;
+   margin-left: 107px;
+ }
+ .class1 {
+   float: right;
+   /* text-align: center; */
+   /* margin-left: 45px; */
+   /* margin-right: 83px; */
+   padding-left: 32px;
+ }
+ 
+ .class4 {
+   float: right;
+   width: 315px;
+ }
+ .row5 {
+   /* width: 100%; */
+   border: 2px solid;
+   height: 210px;
+   margin: auto;
+   background: #322f2f;
+   color: white;
+   margin-bottom: 20px;
+ }
+ .class4 ul {
+   margin-left: 0px;
+   line-height: 1.5;
+   list-style-type: none;
+ }
+ .class1 ul {
+   margin-right: 132px;
+   line-height: 1.5;
+   list-style-type: none;
+ }
+ .row5 a {
+   text-decoration-line: none;
+   color: orange;
+   font-size: 13px;
+   border-bottom: 1px dashed;
+ }
+ .row5 h3{
+   font-size: 13px;
+   margin-left: 39px;
+ }
+ footer h1 {
+   font-size: 12px;
+   float: left;
+   width: 640px;
+   text-align: center;
+ }
+ .row6 {
+   color: white;
+   /* text-align: center; */
+   /* margin: auto; */
+   background-color: black;
+   border: 1px solid;
+   height: 36px;
+ }
+ footer p {
+   float: right;
+   font-size: 12px;
+   width: 325px;
+ }
