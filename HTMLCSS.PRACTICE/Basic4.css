@@ -1,0 +1,16 @@
+img{
+    padding: 5px;
+    border: 4px solid;
+}
+#farming1{
+    background-color: rgb(204, 80, 80);
+}
+#farming2{
+    background-color: cyan;
+}
+.farming3{
+    background-color: rgb(172, 42, 172);
+}
+*{
+    background-color: violet;
+}
