@@ -46,6 +46,8 @@ nav ul li{
 }
 .row2 img{
     margin-top: 30px;
+    width: 800px;
+    height: 350px;
 }
 .row3{
     width: 800px;
@@ -74,7 +76,7 @@ span{
     margin-left: 14px;
 }
 .childs figcaption p{
-    font-size: 13px;
+    font-size: 14px;
 }
 .childspara a{
     color: orange;
@@ -97,7 +99,7 @@ span{
 }
 
 .childs4 figcaption p{
-    font-size: 13px;
+    font-size: 14px;
 }
 .childspara{
     float: right;
@@ -110,7 +112,7 @@ span{
 width: 800px;
 margin: auto;
 overflow: auto;
-/* border-bottom: 1px solid; */
+ border-bottom: 1px dotted; 
 color: gray;
 display: flex;
 height: 215px;
@@ -126,12 +128,14 @@ height: 215px;
     height: 173px;
     float: left;
     border: 2px solid;
+    padding: 3px;
     }
     .parent img {
         width: 245px;
         height: 173px;
         float: left;
         border: 2px solid;
+        padding: 3px;
     }
     /* .parent3 img {
         width: 245px;
@@ -242,6 +246,7 @@ article p{
     width: 131px;
     float: left;
     height: 130px;
+    
 }
 
 div.list {
@@ -250,19 +255,11 @@ div.list {
     width: 125px;
 
 }
-ul aside {
+ul {
     list-style-type: none;
   
 } 
-.list li{
-    list-style-type:none;
-   line-height: 1.5;
- 
-}
-.list li a{
-    text-decoration-line: underline;
-}
-    .row5 {
+  .row5 {
         width: 800px;
         margin: auto;
         overflow: auto;
@@ -270,9 +267,27 @@ ul aside {
         margin-bottom: 20px;
     }
     
-.childimg img {
-    width: 190px;
-    float: left;
-    height: 201px;
-}
+    .childimg img {
+        width: 131px;
+        float: left;
+        height: 130px;
+        border: 2px solid;
+        color: gray;
+        padding: 3px;
+        margin-right: 20px;
+    }
+    .list li a {
+        text-decoration-line: none;
+        border-bottom: 1px dotted;
+        display: block;
+    }
+    div.list {
+        float: right;
+        width: 180px;
+    }
+    .list li {
+        list-style-type: none;
+        line-height: 2.0;
+    }
+    
 
